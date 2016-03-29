@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tech Stack Research</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<div class="jumbotron">
+	<h1>Server and Technology Infrastructure of Google</h1>
+	<p>The technical infrastructure of Google combines software development, networking, and systems engineering to provide reliable and fast services to billions of people [1]. The massive size and continuing growth of these systems requires many types of services, and Google consistently invents new technologies as the infrastructure adapts. Because of the scale, complexity, and innovation that structure these systems, Google is an ideal company to examine to understand the underlying technical aspects of web administration. This article will explore various components of Google’s tech stack and other noteworthy infrastructure as it applies to web administration.</p>
+	<p>Google uses many programming languages; however, a prominent employee has stated that the company tends to prefer C++, Java, and Python above others. [2] For example, Gmail uses Java and Google Search uses C++[3]. Because Google has so many projects, it is useful to have multiple programming languages available to accomplish different tasks. Most of the software used by Google in their tech stack was developed internally using these programming languages. This software stack includes the Google Web Server (GWS) which was created in-house and is used for their online services, several custom storage systems such as Colossus and Google F1, and indexing and search systems like TeraGoogle and Hummingbird. All of the software is designed to be fault tolerant so the entire infrastructure does not fail when hardware fails [4].</p>
+	<p>Several server types are used in the infrastructure, each serving a unique purpose. Web servers are used to execute search queries from users and retrieve hits using the index servers. To supply the index servers with pages, data-gathering servers equipped with a web crawler called GoogleBot are constantly searching the web for pages and using the Google algorithm to rank the pages. Document servers are used to actually store these pages. Ad servers and spelling servers are also used to help target advertisements to users and assist with search queries [5]. </p>
+	<br>
+	<p>[1] Technical Infrastructure - Google Careers. (n.d.). Retrieved March 24, 2016, from https://www.google.com/about/careers/teams/engineering/systems/ </p>
+	<p>[2] Rossum, G. V. (2006, January 10). Google. Retrieved March 24, 2016, from http://www.artima.com/weblogs/viewpost.jsp?thread=143947</p>
+	<p>[3] Stein, G. (2006, February 1). Python at Google. Retrieved March 28, 2016, from https://web.archive.org/web/20111228034932/http://panela.blog-city.com:80/python_at_google_greg_stein__sdforum.htm</p>
+	<p>[4] Google Architecture - High Scalability -. (n.d.). Retrieved March 26, 2016, from http://highscalability.com/google-architecture</p>
+	<p>[5] Barroso, L. A., Dean, J., & Holzle, U. (n.d.). The Google Cluster Architecture. Retrieved from http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/googlecluster-ieee.pdf</p>
+	
+	</div>
+  </body>
+</html>
