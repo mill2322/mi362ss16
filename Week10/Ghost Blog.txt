@@ -1,0 +1,4 @@
+Hi Dr. Siarto,
+
+I sent you a few emails and posted on the class discussion, but I am unable to deploy to heroku using
+ghost. I attached screenshots to my emails for reference to my issue.
