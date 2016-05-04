@@ -1,0 +1,7 @@
+100 - Hosted on Heroku (Required) - kevinsfinalprojectapp.herokuapp.com
+100 - Custom domain name (Required) - http://kevinsapp.jumpingcrab.com/
+100 - Instructor/discretionary (Required, looking for quality, originality, spelling/grammer, overall project polish)
+300 - 4 complete HTML pages with content - I have an index page with about me content, research page with a research project i worked on,
+					   contact page so I can be contacted, and an extracurricular page with extracurricular activities I've done
+200 - Custom CSS or Bootstrap for design (all pages) - The CSS file formats all of my pages
+50 - Use at least two custom images (original photography or illustration) - There are several images used throughout the site

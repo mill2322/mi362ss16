@@ -1,0 +1,5 @@
+http://kevinsapp.jumpingcrab.com/
+The above is my custom domain name. I was having issues accessing this page so I included a screenshot of
+my registration in this folder. I'll also include the heroku domain in case the grader is still having 
+issues accessing my custom domain:
+Heroku Domain (in case the custom domain isn't working): kevinsfinalprojectapp.herokuapp.com

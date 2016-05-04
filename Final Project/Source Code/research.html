@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Undergraduate Research</title>
+        <link href="home.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="content">
+        <nav>
+            <ul class="left">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li class="ecDropdown">
+                    <a href="extracurricular.html" class="ecBtn">Extracurricular</a>
+                    <div class="ecContent" id="ecContent">
+                        <a href="extracurricular.html#music">Music</a>
+                        <a href="extracurricular.html#camping">Camping</a>
+                        <a href="extracurricular.html#travel">Travel</a>
+                        <a href="extracurricular.html#church">Church</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Undergraduate Research</h1>
+            <div class="uncoreImage">
+                <figure><img src="images/UnCoRe.jpg" width="194" height="194" alt="Kevin Miller's undergraduate research photo"/>
+                </figure>
+            </div>
+        </header>
+
+            <h2>Undergraduate Computer Research (UnCoRe) in Secure and Trustworthy Cyberspace</h2>
+            <p>In the summer of 2015, I participated in an undergraduate research opportunity at Oakland University in Rochester Hills, Michigan. 
+            This was a wonderful program that exposed me to professional academic research and allowed me to work with a team of students from  
+            around the country. I worked closely with Dr. Fu, a professor at Oakland University, Ahmad Monsour, a graduate student pursuing a PhD
+            Richard Bassous, a researcher, and three other students. Together our team learned about cryptographic algorithms for securing data, modifying existing algorithms, 
+            and applying the algorithms in practical situations.</p>
+			
+			<p><a href="http://amscreu2015.weebly.com/uploads/5/4/6/5/54658647/final_poster_presentation-securing_safety_messages_in_vanets.pdf"><img src="images/posterFinal.jpg" width="400" height="280" alt="Final Poster Presentation"/></a></p>
+
+            <p>Two of our team members restructured the Ambiguous Multi-Symmetric Cryptographic (AMSC) algorithm created by Richard Bassous into an asymmetric scheme, while the other team member 
+            and I applied the existing algorithm to Vehicular Ad-hoc Networks (VANETs). VANETs are part of an emerging system of communication between vehicles on the road. Before self-driving 
+            vehicles can become a reality, and more importantly to increase safety on the roadway, it is essential that vehicles can transmit data between each other in a safe, quick, and secure manner.
+            This data could alert nearby vehicles of hazardous conditions (such as weather, construction, or accidents) or prevent collisions by broadcasting position and speed of a vehicle. However,
+            this system can be exploited by an attacker if it is not secured. For example, data may contain personal identifiers for a vehicle that could be tracked or false data could be transmitted to
+            cause collisions and redirect traffic. There are several ways of securing this information, but they have associated risks and benefits. Our project aimed to encrypt the data using AMSC and
+            structure a reliable framework to disseminate messages to vehicles.</p>
+
+            <p>To understand how the algorithm could be applied to VANETs, we had to learn the mathematics behind standardized
+            encryption schemes such as DES, AES, and RSA. Many of the underlying mathematical principles of these algorithms were used to create the AMSC algorithm. Furthermore, we had to understand how
+            symmetric (private, shared key) algorithms and asymmetric (public key) algorithms differ, and the benefits and costs of both types. Beyond the algorithms, we learned about VANETs and reviewed
+            many existing proposals for encrypting and transmitting data to vehicles.</p>
+
+            <p>Our final proposal suggested four system models that obfuscate and encrypt data efficiently and securely. We designed and created an Android application which could encrypt and send data to another device
+            using DES, AES, RC, RSA, or AMSC. We compared the speed of encrypting and transferring data using the various cryptographic algorithms. While AMSC had already been shown to be more secure than other symmetric algorithms 
+            in Richard Bassous' paper, our application demonstrated that AMSC was more efficient at encrypting and transferring messages between devices using our proposed systems.</p>
+
+            <p>Once we had acquired the necessary data from our Android application, we wrote a research paper and created a poster presentation that summarized our findings.</p>
+            <p>Below are links to the UnCoRe website and our final poster presentation.</p>
+
+            <div class="links">
+            <p><a href="http://cse-reu.secs.oakland.edu/index.php?year=2015&sec=students">UnCoRe Website</a></p>
+            <p><a href="http://amscreu2015.weebly.com/uploads/5/4/6/5/54658647/final_poster_presentation-securing_safety_messages_in_vanets.pdf">Final Poster Presentation</a></p>
+            </div>
+        <footer>
+            <p>Kevin Miller is graduating from Michigan State University </p>
+            <p>B.S. of Computer Science & Engineering with a cognate in Media & Information</p>
+            <p><a href="research.html">Return to top</a></p>
+        </footer>
+        </div>
+    </body>
+</html>
